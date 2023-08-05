@@ -1,0 +1,38 @@
+body{
+    background-color:black;
+    font-family: 'Quicksand', sans-serif;
+}
+@media (max-width: 400px) {
+    .heading{font-size: 15px;}
+}
+@media (max-width: 400px) {
+   .caption{font-size: 10px;}
+}
+@media (max-width: 400px) {
+    .contact::placeholder{font-size: 14px;}
+ }
+ .contact::placeholder{
+    color: white;
+    
+ }
+ .contact:hover{
+    background-color: transparent;
+    color: white;
+ }
+ .contact{
+    color: white;
+    /* background-color: transparent; */
+ }
+ @media (max-width: 800px) {
+    .contact::placeholder{font-size: 13px;}
+ }
+.image:hover,.about:hover,.contact:hover{
+  outline: 2px solid white;
+  
+}
+.button-contact:hover{
+  background-color: transparent;
+  color: white;
+  outline: 2px solid white;
+}
+
